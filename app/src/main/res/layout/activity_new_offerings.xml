@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewOfferings">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:contentDescription="TODO" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Open Camera" />
+
+    <Switch
+        android:id="@+id/autoTime"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:text="AUTO TIME" />
+
+    <EditText
+        android:id="@+id/subjectEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Subject"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/messageEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="Enter message here..."
+        android:inputType="text"
+        android:minHeight="150dp" />
+
+    <Button
+        android:id="@+id/sendEmailBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="send Email" />
+
+
+</LinearLayout>
